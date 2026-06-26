@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Neural representation of consciously seen and unseen information",
+  "description": "This dataset contains neural recordings investigating the brain's representation of consciously perceived versus unconsciously processed visual information. The study examines how neural activity differs when identical visual stimuli are either consciously seen or remain outside conscious awareness, providing insights into the neural correlates of consciousness and visual perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +10,31 @@
     "Ana B. Chica": {},
     "José A. González-López": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005273.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Consciousness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
     },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "neural representation"
+    },
+    {
+      "term": "visual awareness"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005273",
       "identifier_type": "URL",
@@ -24,15 +44,20 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005273",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005273.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "47.7 GB (96 files)"
   ],
   "formats": [
     ".eeg",
@@ -40,28 +65,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings investigating the brain's representation of consciously perceived versus unconsciously processed information. The study employs electroencephalography (EEG) to examine how neural activity differs when visual stimuli are consciously seen compared to when they remain outside conscious awareness, providing insights into the neural correlates of consciousness. This is a NEMAR mirror of the OpenNeuro dataset ds005273, providing access through the NEMAR platform.",
-  "keywords": [
-    {
-      "term": "consciousness"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "visual awareness"
-    },
-    {
-      "term": "neural representation"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "unconscious processing"
-    }
-  ],
-  "source_hash": "ff047a19daf456f6e45e1068eb8fc444cd8200bb9b392841c1e07625acccffbf"
+  "source_hash": "d9e24c0e532a7f14a3a7812000fe78c4528b42a2e5e154c1a64634e87f836b9f"
 }
