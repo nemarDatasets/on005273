@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005273",
+  "source": "openneuro",
+  "source_id": "ds005273",
+  "title": "Neural representation of consciously seen and unseen information",
+  "authors": {
+    "Pablo Rodríguez-San Esteban": {},
+    "Ana B. Chica": {},
+    "José A. González-López": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005273.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
