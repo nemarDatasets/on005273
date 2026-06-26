@@ -12,17 +12,13 @@
   },
   "keywords": [
     {
-      "term": "Consciousness",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
       "term": "EEG"
+    },
+    {
+      "term": "consciousness"
+    },
+    {
+      "term": "visual perception"
     },
     {
       "term": "neural representation"
@@ -31,7 +27,7 @@
       "term": "visual awareness"
     },
     {
-      "term": "neuroimaging"
+      "term": "brain imaging"
     }
   ],
   "related_identifiers": [
