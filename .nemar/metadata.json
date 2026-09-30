@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Neural representation of consciously seen and unseen information",
-  "description": "This dataset investigates the neural representation of consciously seen and unseen information, likely using EEG recordings to examine visual consciousness and perception. It is designed to support research into the neural correlates of conscious versus unconscious processing of visual stimuli.",
+  "description": "EEG dataset investigating the neural representation of consciously seen and unseen information. The recordings were collected by Rodríguez-San Esteban, Chica, and González-López and are shared in BIDS format. The dataset is mirrored on NEMAR from OpenNeuro (ds005273).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,17 +15,13 @@
       "term": "EEG"
     },
     {
-      "term": "Consciousness",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+      "term": "consciousness"
     },
     {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "visual awareness"
     },
     {
-      "term": "neural representation"
+      "term": "unconscious perception"
     }
   ],
   "related_identifiers": [
@@ -51,7 +47,7 @@
     "eeg"
   ],
   "sizes": [
-    "47.7 GB (96 files)"
+    "44.40 GB (96 files)"
   ],
   "formats": [
     ".eeg",
